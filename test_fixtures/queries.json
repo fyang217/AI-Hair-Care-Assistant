@@ -1,0 +1,189 @@
+{
+  "dataset_type": "synthetic",
+  "cases": [
+    {
+      "case_id": "T001",
+      "source_type": "synthetic",
+      "query": "油头，细软塌，预算不超过八十元，避免香精",
+      "expected": {
+        "scalp": "易出油",
+        "hair": "细软",
+        "budget_max": 80,
+        "goals": [
+          "控油",
+          "蓬松"
+        ],
+        "avoid": [
+          "香精"
+        ]
+      }
+    },
+    {
+      "case_id": "T002",
+      "source_type": "synthetic",
+      "query": "头皮偏干，粗硬发，预算八十到一百五十元，想柔顺",
+      "expected": {
+        "scalp": "偏干",
+        "hair": "粗硬",
+        "budget_max": 150,
+        "goals": [
+          "柔顺"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "case_id": "T003",
+      "source_type": "synthetic",
+      "query": "敏感头皮，卷发，预算一百二十元以内，避开薄荷醇",
+      "expected": {
+        "scalp": "敏感",
+        "hair": "卷发",
+        "budget_max": 120,
+        "goals": [],
+        "avoid": [
+          "薄荷醇"
+        ]
+      }
+    },
+    {
+      "case_id": "T004",
+      "source_type": "synthetic",
+      "query": "油性头皮，有头屑，发量多，低于100元",
+      "expected": {
+        "scalp": "易出油且有头屑",
+        "hair": "发量多",
+        "budget_max": 100,
+        "goals": [
+          "控油",
+          "去屑"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "case_id": "T005",
+      "source_type": "synthetic",
+      "query": "漂染受损发尾易打结，预算未定，想避免硫酸盐",
+      "expected": {
+        "scalp": "未说明",
+        "hair": "漂染",
+        "budget_max": null,
+        "goals": [
+          "柔顺"
+        ],
+        "avoid": [
+          "硫酸盐"
+        ]
+      }
+    },
+    {
+      "case_id": "T006",
+      "source_type": "synthetic",
+      "query": "中性头皮，直发，150元以内，喜欢清淡香味",
+      "expected": {
+        "scalp": "中性",
+        "hair": "直发",
+        "budget_max": 150,
+        "goals": [
+          "香味"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "case_id": "T007",
+      "source_type": "synthetic",
+      "query": "干性头皮，卷发，预算最多200元，希望少打结，避免酒精",
+      "expected": {
+        "scalp": "偏干",
+        "hair": "卷发",
+        "budget_max": 200,
+        "goals": [
+          "柔顺"
+        ],
+        "avoid": [
+          "酒精"
+        ]
+      }
+    },
+    {
+      "case_id": "T008",
+      "source_type": "synthetic",
+      "query": "发根很油，发尾干枯，预算90元，想改善扁塌，避免硅油",
+      "expected": {
+        "scalp": "易出油",
+        "hair": "发尾干枯",
+        "budget_max": 90,
+        "goals": [
+          "控油",
+          "蓬松",
+          "柔顺"
+        ],
+        "avoid": [
+          "硅油"
+        ]
+      }
+    },
+    {
+      "case_id": "T009",
+      "source_type": "synthetic",
+      "query": "细软、烫过的发质，预算比较紧，对水杨酸不耐受",
+      "expected": {
+        "scalp": "未说明",
+        "hair": "细软且烫染",
+        "budget_max": null,
+        "goals": [],
+        "avoid": [
+          "水杨酸"
+        ]
+      }
+    },
+    {
+      "case_id": "T010",
+      "source_type": "synthetic",
+      "query": "对比 P012 和 P014，头皮油，发尾毛躁，暂时没有预算上限",
+      "expected": {
+        "scalp": "易出油",
+        "hair": "毛躁",
+        "budget_max": null,
+        "goals": [
+          "控油",
+          "柔顺"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "case_id": "T011",
+      "source_type": "synthetic",
+      "query": "比较 P003 和 P006 的使用体验，有头屑且不喜欢浓留香",
+      "expected": {
+        "scalp": "头屑",
+        "hair": "未说明",
+        "budget_max": null,
+        "goals": [
+          "去屑",
+          "香味"
+        ],
+        "avoid": []
+      }
+    },
+    {
+      "case_id": "T012",
+      "source_type": "synthetic",
+      "query": "预算在60到110元之间，头皮敏感，发丝粗硬，希望清洁后清爽，避开香精",
+      "expected": {
+        "scalp": "敏感",
+        "hair": "粗硬",
+        "budget_max": 110,
+        "goals": [
+          "清洁"
+        ],
+        "avoid": [
+          "香精"
+        ]
+      }
+    }
+  ]
+}

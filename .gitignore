@@ -1,0 +1,43 @@
+# Local environments and credentials
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+.env.txt
+.streamlit/secrets.toml
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+
+# Caches, logs, and editor files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage*
+*.log
+*.tmp
+*.building
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Private inputs, generated databases, and delivery artifacts
+/data/*
+!/data/haircare.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.sqlite-journal
+*.xlsx
+*.xls
+*.zip
+*.bundle
+*.pptx
+/outputs/
+/work/
+.chart-data-*/

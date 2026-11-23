@@ -1,0 +1,156 @@
+{
+  "dataset_type": "synthetic",
+  "reviews": [
+    {
+      "fixture_id": "S001",
+      "source_type": "synthetic",
+      "product_id": "P012",
+      "original_text": "漂染后发尾容易打结，洗完这次梳起来顺一些。",
+      "expected_annotation": {
+        "sentiment": "正面",
+        "topics": [
+          "柔顺"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S002",
+      "source_type": "synthetic",
+      "product_id": "P012",
+      "original_text": "清洁感够用，但冲洗后发尾有些紧涩。",
+      "expected_annotation": {
+        "sentiment": "混合",
+        "topics": [
+          "清洁",
+          "干涩"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S003",
+      "source_type": "synthetic",
+      "product_id": "P012",
+      "original_text": "香味对我来说偏浓，洗完后还闻得到。",
+      "expected_annotation": {
+        "sentiment": "负面",
+        "topics": [
+          "香味",
+          "留香"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S004",
+      "source_type": "synthetic",
+      "product_id": "P014",
+      "original_text": "细软发根吹干后显得比较蓬松。",
+      "expected_annotation": {
+        "sentiment": "正面",
+        "topics": [
+          "蓬松"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S005",
+      "source_type": "synthetic",
+      "product_id": "P014",
+      "original_text": "洗完头皮清爽，不过下午依然出油。",
+      "expected_annotation": {
+        "sentiment": "混合",
+        "topics": [
+          "清洁",
+          "控油"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S006",
+      "source_type": "synthetic",
+      "product_id": "P014",
+      "original_text": "冲水后头发有些打结，我得配合护发素。",
+      "expected_annotation": {
+        "sentiment": "负面",
+        "topics": [
+          "打结"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S007",
+      "source_type": "synthetic",
+      "product_id": "P003",
+      "original_text": "洗后发尾摸起来更柔软，香味也不刺鼻。",
+      "expected_annotation": {
+        "sentiment": "正面",
+        "topics": [
+          "柔顺",
+          "香味"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S008",
+      "source_type": "synthetic",
+      "product_id": "P003",
+      "original_text": "这次洗后香味不明显，柔顺感也没有很大的变化。",
+      "expected_annotation": {
+        "sentiment": "中性",
+        "topics": [
+          "香味",
+          "柔顺"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S009",
+      "source_type": "synthetic",
+      "product_id": "P003",
+      "original_text": "虽然好梳理，但我不喜欢洗完残留的香味。",
+      "expected_annotation": {
+        "sentiment": "混合",
+        "topics": [
+          "柔顺",
+          "留香"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S010",
+      "source_type": "synthetic",
+      "product_id": "P006",
+      "original_text": "泡沫好冲洗。头屑的变化还不确定。",
+      "expected_annotation": {
+        "sentiment": "混合",
+        "topics": [
+          "起泡",
+          "去屑"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S011",
+      "source_type": "synthetic",
+      "product_id": "P006",
+      "original_text": "头皮洗完觉得不舒服，下次会换回原来那款。",
+      "expected_annotation": {
+        "sentiment": "负面",
+        "topics": [
+          "头皮舒适度"
+        ]
+      }
+    },
+    {
+      "fixture_id": "S012",
+      "source_type": "synthetic",
+      "product_id": "P006",
+      "original_text": "冲洗后有清爽感，暂时没有看出其他变化。",
+      "expected_annotation": {
+        "sentiment": "中性",
+        "topics": [
+          "清洁"
+        ]
+      }
+    }
+  ]
+}
