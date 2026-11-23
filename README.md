@@ -2,6 +2,10 @@
 
 A local Streamlit prototype for comparing hair-care products using traceable product, ingredient, price, and review evidence. It is designed for Chinese-language queries such as “头皮容易出油，细软塌，预算100元以内”. The project explores how a recommendation interface can show what the catalog supports and where a user still needs to verify a claim.
 
+**[View the AI product management portfolio (PDF, Chinese)](docs/ai-hair-care-assistant-portfolio.pdf)** · [Run locally](#run-locally)
+
+The case study covers the user problem, MVP trade-offs, the evidence workflow, and evaluation results.
+
 ![Streamlit demo showing a user query, a ranked product candidate, and its source link](docs/streamlit-demo.png)
 
 The local demo shows a candidate, its review summary, and a link to the source page.
@@ -15,7 +19,9 @@ The local demo shows a candidate, its review summary, and a link to the source p
 
 ## Architecture and stack
 
-The recommendation pipeline combines **rule-based retrieval + evidence-grounded generation**. Python retrieves and ranks candidates from SQLite. When enabled, DeepSeek generates explanations from the retrieved evidence, and the application checks each cited claim against its product and source excerpt.
+**AI Agent · LLM · RAG · Tool Calling · DeepSeek API · Search / Fetch · Streamlit**
+
+The recommendation pipeline combines **rule-based retrieval + evidence-grounded generation**. Python retrieves and ranks candidates from SQLite. When enabled, DeepSeek generates explanations from the retrieved evidence, and the application checks each cited claim against its product and source excerpt. This is a bounded retrieval-augmented generation (RAG) workflow. For tool calling, the model proposes a search action and the Python controller validates and executes the allowed DeepSeek Search / Fetch requests.
 
 ```text
 Streamlit UI / CLI -> Python controller -> SQLite catalog + deterministic rules
@@ -63,7 +69,7 @@ The included catalog is a fixed evaluation snapshot. The repository contains the
 
 ## Roadmap
 
-- Expand and periodically refresh the catalog, with more matched reviews and verified quotes.
+- Expand from the current 17 products toward a planned 200 in stages, with more matched review metadata and verified quotes.
 - Improve SKU and market-version matching and evaluate retrieval on a wider set of queries.
 - Run a larger evaluation of recommendation relevance, evidence coverage, latency, and cost before considering a hosted release.
 
